@@ -50,6 +50,7 @@ class Bus extends Vehicle{
 	@Override
 	public void displayInfo() {
 		System.out.println("I have a Bus");
+		
 	}
 	
 }
