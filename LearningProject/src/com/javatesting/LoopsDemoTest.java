@@ -1,6 +1,10 @@
+package com.javatesting;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
+
+import com.javalearning.LoopsDemo;
 
 class LoopsDemoTest {
 	LoopsDemo demo = new LoopsDemo();

@@ -1,4 +1,6 @@
 //This program demonstrates java basics (Variables, Data types, Control flow, Loops, Arrays)
+package com.javalearning;
+
 import java.util.Scanner;
 
 public class StudentManagementStage1 {

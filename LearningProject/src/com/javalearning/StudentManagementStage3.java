@@ -1,4 +1,5 @@
 //This program demonstrates Collections using ArrayList and Collections
+package com.javalearning;
 
 import java.util.ArrayList;
 import java.util.Collections;

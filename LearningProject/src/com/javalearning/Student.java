@@ -1,3 +1,5 @@
+package com.javalearning;
+
 public class Student {
     protected int id;
     protected String name;

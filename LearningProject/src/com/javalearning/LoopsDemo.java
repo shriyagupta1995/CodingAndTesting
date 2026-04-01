@@ -1,3 +1,5 @@
+package com.javalearning;
+
 
 public class LoopsDemo {
 	

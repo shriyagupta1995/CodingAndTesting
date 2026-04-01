@@ -1,4 +1,6 @@
 //This program demonstrates OOPS concepts.
+package com.javalearning;
+
 import java.util.Scanner;
 
 public class StudentManagementStage2 {
