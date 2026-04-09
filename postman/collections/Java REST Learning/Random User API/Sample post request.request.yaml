@@ -1,0 +1,9 @@
+$kind: http-request
+name: Sample post request
+url: https://httpbin.org/post
+method: POST
+body:
+  type: json
+  content: '"{ \"title\": \"Hello REST\", \"body\": \"This is a test POST
+    request\", \"userId\": 1 }"'
+order: 526166736765811
