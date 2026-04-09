@@ -1,0 +1,19 @@
+$kind: http-request
+name: Post Data
+method: POST
+url: 'https://httpbin.org/post'
+order: 1000
+description: 'Sends a POST request with a JSON body to HTTPBin. Used in SimplePostClient.java to demonstrate POST requests in REST APIs.'
+headers:
+  - key: Content-Type
+    value: 'application/json; utf-8'
+  - key: Accept
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "title": "Hello REST",
+      "body": "This is a test POST request",
+      "userId": 1
+    }

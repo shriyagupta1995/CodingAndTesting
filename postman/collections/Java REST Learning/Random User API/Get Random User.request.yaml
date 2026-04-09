@@ -1,0 +1,10 @@
+$kind: http-request
+name: Get Random User
+method: GET
+url: https://randomuser.me/api/
+body:
+  type: json
+  content: ""
+order: 1000
+description: Fetches a random user from the Random User API. Used in
+  SimpleRestClient.java to demonstrate GET requests and JSON parsing with Gson.
