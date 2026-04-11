@@ -1,0 +1,16 @@
+$kind: http-request
+name: Simple Books API Post Request
+url: https://simple-books-api.click/orders
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"bookId\": 1,\r
+
+    \  \"customerName\": \"John\"\r
+
+    }"
+auth:
+  type: jwt
+order: 4255939424157695

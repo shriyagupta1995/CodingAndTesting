@@ -1,0 +1,5 @@
+$kind: http-request
+name: ReqrRes GET API
+url: ""
+method: GET
+order: 3917665875787775

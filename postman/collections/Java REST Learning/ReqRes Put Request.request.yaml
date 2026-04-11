@@ -1,0 +1,16 @@
+$kind: http-request
+name: ReqRes Put Request
+url: https://reqres.in/api/users/2
+method: PUT
+headers:
+  x-api-key: reqres_512ed0c17dc94340b2613aab4b27296d
+body:
+  type: json
+  content: "{\r
+
+    \    \"first_name\": \"Janet\",\r
+
+    \    \"last_name\": \"Smith\"\r
+
+    }"
+order: 433216008749055

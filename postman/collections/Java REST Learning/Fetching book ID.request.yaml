@@ -1,0 +1,7 @@
+$kind: http-request
+name: Fetching book ID
+url: https://simple-books-api.click/books/:bookId
+method: GET
+pathVariables:
+  bookId: "5"
+order: 3914269141762047
