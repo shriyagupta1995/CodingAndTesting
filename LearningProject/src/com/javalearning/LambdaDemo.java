@@ -2,14 +2,14 @@ package com.javalearning;
 
 //Functional interface
 @FunctionalInterface
-interface MyFunctionalInterface {
+interface MyFunctionalInterfacelambda {
  void sayMessage(String message);
 }
 
 public class LambdaDemo {
  public static void main(String[] args) {
      // Using a lambda expression to implement the interface
-     MyFunctionalInterface myLambda = (msg) -> {
+     MyFunctionalInterfacelambda myLambda = (msg) -> {
          System.out.println("Message: " + msg);
      };
 
