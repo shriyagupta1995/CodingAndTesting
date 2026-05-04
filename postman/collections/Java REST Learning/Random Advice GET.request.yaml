@@ -1,0 +1,5 @@
+$kind: http-request
+name: Random Advice GET
+url: https://api.adviceslip.com/advice/184
+method: GET
+order: 6000

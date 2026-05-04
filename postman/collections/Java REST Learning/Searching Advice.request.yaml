@@ -1,0 +1,7 @@
+$kind: http-request
+name: Searching Advice
+url: https://api.adviceslip.com/advice/search/{8}?Query=7
+method: GET
+queryParams:
+  Query: "7"
+order: 3666598664382760

@@ -1,0 +1,18 @@
+$kind: http-request
+name: ReqrRes post request
+url: https://reqres.in/api/users/?ap=
+method: POST
+headers:
+  x-api-key: reqres_512ed0c17dc94340b2613aab4b27296d
+queryParams:
+  ap: ""
+body:
+  type: json
+  content: "{\r
+
+    \    \"first_name\": \"Nivesh\",\r
+
+    \    \"last_name\": \"Mahajan\"\r
+
+    }"
+order: 4486518433109930
