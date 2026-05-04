@@ -1,0 +1,11 @@
+$kind: http-request
+name: Weather Forecasting GET Request
+url: https://api.weatherapi.com/v1/current.json?key=ff40e457b8e849ceb38171613262804&q=New
+  Delhi
+method: GET
+queryParams:
+  - key: key
+    value: ff40e457b8e849ceb38171613262804
+  - key: q
+    value: New Delhi
+order: 4467263685684353

@@ -1,0 +1,27 @@
+$kind: http-request
+name: Weather Forecasting Post Request
+url: https://api.weatherapi.com/v1/forecast.json?key=ff40e457b8e849ceb38171613262804&q=Berlin
+method: POST
+headers:
+  - key: Content-Type
+    value: application/json
+queryParams:
+  - key: key
+    value: ff40e457b8e849ceb38171613262804
+  - key: q
+    value: Berlin
+  - key: name
+    value: Shriya
+    disabled: true
+body:
+  type: json
+  content: "{\r
+
+    \  \"key\": \"ff40e457b8e849ceb38171613262804\",\r
+
+    \  \"q\": \"Berlin\",\r
+
+    \  \"days\": 3\r
+
+    }\r\n"
+order: 4478529332512276

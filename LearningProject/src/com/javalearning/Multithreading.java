@@ -24,12 +24,7 @@ class MyThread extends Thread {
 public class Multithreading {
     public static void main(String[] args) {
         MyThread t1 = new MyThread("Thread-1");
-        MyThread t2 = new MyThread("Thread-2");
-
-        t1.start(); // start first thread
-        t2.start(); // start second thread
-
-        System.out.println("Main thread finished starting both threads.");
+        
     }
 }
 
